@@ -1,0 +1,198 @@
+:root {
+  --white-color: #fff;
+  --bg-color: #fff;
+  --gray-color: #ccc;
+}
+/* Changing background color */
+body {
+  background: var(--bg-color) !important;
+}
+/* Changing link color */
+.nav-item .nav-link {
+  color: var(--white-color);
+}
+/* Hero section background image */
+.hero {
+  height: 100vh;
+  /* background-image: url("05-28-2025_X-Design\ \(1\).png"); */
+  background-color: black;
+
+  background-repeat: no-repeat;
+  background-position: 60% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+#skills i {
+  height: 100px;
+  width: 100px;
+}
+#portfolio img {
+  height: 300px;
+  object-fit: cover;
+}
+#about .img,
+#about img,
+.hire-text h2 {
+  position: relative;
+}
+/* Timeline background line */
+#about .img::before {
+  content: "";
+  left: 50%;
+  width: 4px;
+  position: absolute;
+  height: calc(100% + 140px);
+  background: var(--gray-color);
+}
+
+/* image slider */
+
+/* .foter img{
+  width: 200px;
+  height: 150px;
+  padding: 1px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 35px;
+} */
+
+
+#about img,
+#about .hire-text h2 {
+  width: 140px;
+}
+#SKIL1{
+  display: flex;
+  justify-content: center;
+  gap: 100PX;
+}
+#about .hire-text h2 {
+  height: 140px;
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+}
+footer .social-icons a {
+  width: 30px;
+  height: 30px;
+}
+#cv img {
+  width: 230px;
+}
+/* Contact section background image */
+#contact {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("contact-bg.jpeg");
+}
+/* new add image   hover */
+#img3 img{
+  width: 100PX;
+}
+#img3{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+  
+
+}
+#img3:hover{
+  transform: scale(1.1);
+
+}
+
+
+
+#img4{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#img4:hover{
+  transform: scale(1.1);
+
+}
+
+
+#img4 img{
+  width: 100PX;
+}
+
+#M1{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#M1:hover{
+  transform: scale(1.1);
+
+}
+ #M2{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#M2:hover{
+  transform: scale(1.1);
+
+} 
+#M3{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#M3:hover{
+  transform: scale(1.1);
+
+} 
+#M4{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#M4:hover{
+  transform: scale(1.1);
+
+} 
+#M5{
+  box-shadow: 0 0 5px black;
+  transition: 2s ease-in-out;
+
+}
+#M5:hover{
+  transform: scale(1.1);
+
+} 
+
+#m6 img{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#cont124{
+  text-align: start;
+  
+}
+
+
+
+
+
+@media screen and (max-width: 990px) {
+  #skills .card {
+    width: calc(100% / 2 - 10px) !important;
+  }
+}
+@media screen and (max-width: 668px) {
+  #skills .card,
+  #portfolio .card-wrapper {
+    width: 100% !important;
+  }
+ #about .hire-text h2 {
+   height: 70px;
+   width: 70px;
+ }
+}
+
